@@ -2,6 +2,18 @@
 
 每个步骤对应一次提交、一个版本标签（`v0.N-stepN`）和一份可直接打开的快照（`versions/step-N/`）。
 
+## v0.5 — Step 5：CTA 区 + 页脚（2026-10-08）
+
+- CTA 区：CONTINUE TO SCROLL 跑马灯指示条 + 三行大字（"Is Your Big Idea / Ready to Go Wild?" 逐行入场，
+  "Let's work together!" 为 mailto 链接并复用逐字母 hover 滚动）
+- 页脚四栏：Studio 地址（Maps 链接）/ Socials / Enquiries（两个邮箱）/ Newsletter（下划线输入框 + 圆形提交按钮）
+- 页脚底栏：版权行（明确标注为 study replica）、R&D 链接、署名；最底部深色 "About us — Next page" 大字跳转条（悬停箭头位移）
+- 入场动画泛化为 [data-reveal]（含栏间 0.08s 交错延迟）；字母滚动结构泛化为 [data-roll]（CTA 链接同享）
+- 订阅表单为纯演示：校验非空邮箱后按钮变 ✓，无后端
+- 联系邮箱/社交/R&D 均为占位（example.com 与 #），避免复刻站误导访客；页脚在 <main> 内，同样参与整页滚动内收
+- 验证：底部滚动后 9/9 个 data-reveal 元素入场、CTA 链接拆分为 18 字母 × 4 拷贝、底栏进入视口（y=619/720）、页高 4889px
+- 打开本版本：`versions/step-5/`
+
 ## v0.4.1 — Step 4 修正：页面整体内收（2026-10-08）
 
 - 修正 v0.4 的理解偏差：内收效果基于**页面整体**（整个 `<main>` 作为一个单元），

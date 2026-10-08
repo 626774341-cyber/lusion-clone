@@ -10,6 +10,7 @@
 | 版本 | 内容 | 地址 |
 | --- | --- | --- |
 | 最新 | 所有已完成步骤 | `/`（仓库主页部署） |
+| v0.5 | Step 5：CTA 区 + 页脚 | `versions/step-5/` |
 | v0.4.1 | Step 4 修正：页面整体内收 | `versions/step-4.1/` |
 | v0.4 | Step 4 初版：逐卡片内收（已被 v0.4.1 取代） | `versions/step-4/` |
 | v0.3 | Step 3：动画层 + 8 张卡片 | `versions/step-3/` |
