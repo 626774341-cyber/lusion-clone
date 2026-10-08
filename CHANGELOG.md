@@ -2,6 +2,21 @@
 
 每个步骤对应一次提交、一个版本标签（`v0.N-stepN`）和一份可直接打开的快照（`versions/step-N/`）。
 
+## v0.6 — Step 6：打磨（全屏菜单 + 平滑滚动 + 移动端）（2026-10-08）
+
+- 全屏菜单：点击 MENU 胶囊展开覆盖层（clip-path 自上而下揭示），按钮切换为 Close ×
+  - 大字导航 Home / About us / Projects（当前页置灰）/ Contact / Labs，逐项错位浮现
+  - 导航悬停复刻原站双份文案的上下滚动效果（纯 CSS .roll2）
+  - 菜单内订阅表单 + 联系信息；打开时锁定页面滚动，ESC / 点击链接关闭并归还焦点
+- 平滑滚动：滚轮接管为 lerp 惯性滚动（触控板/滚轮皆可，Ctrl+滚轮缩放保留），
+  键盘、滚动条拖动、锚点跳转仍走原生并自动同步目标；触屏与 reduced-motion 自动关闭
+- 整页内收的速度阈值适配平滑滚动（60→16 px/帧），两种滚动模式下收缩手感一致
+- 移动端（≤480px）：导航胶囊/圆钮缩小、首屏标题降到 13.5vw；390px 宽验证无横向溢出
+- 表单处理器泛化为 .news-form（页脚 + 菜单两实例）；订阅表单提交后置灰打勾
+- 验证：菜单开合状态机（class/aria/滚动锁/焦点）、wheel 接管（defaultPrevented=true）、
+  390×844 下 scrollWidth=innerWidth=390、CTA/菜单字号正确缩放
+- 打开本版本：`versions/step-6/`
+
 ## v0.5 — Step 5：CTA 区 + 页脚（2026-10-08）
 
 - CTA 区：CONTINUE TO SCROLL 跑马灯指示条 + 三行大字（"Is Your Big Idea / Ready to Go Wild?" 逐行入场，
