@@ -10,7 +10,8 @@
 | 版本 | 内容 | 地址 |
 | --- | --- | --- |
 | 最新 | 所有已完成步骤 | `/`（仓库主页部署） |
-| v0.4 | Step 4：卡片滚动内收效果 | `versions/step-4/` |
+| v0.4.1 | Step 4 修正：页面整体内收 | `versions/step-4.1/` |
+| v0.4 | Step 4 初版：逐卡片内收（已被 v0.4.1 取代） | `versions/step-4/` |
 | v0.3 | Step 3：动画层 + 8 张卡片 | `versions/step-3/` |
 | v0.2 | Step 2：作品卡片网格（19 张） | `versions/step-2/` |
 | v0.1 | Step 1：骨架 + 导航 + 首屏 | `versions/step-1/` |
