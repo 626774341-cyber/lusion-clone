@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Lusion 风格复刻（学习用途）</title>
+  <meta name="description" content="Front-end study replica of the lusion.co/projects layout, built from scratch with placeholder visuals." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ======= 顶部导航（Step 1） ======= -->
+  <header class="site-header">
+    <a class="logo" href="#" aria-label="Home">LUSION</a>
+
+    <div class="header-actions">
+      <button class="btn-circle" type="button" aria-label="Back">
+        <span class="icon-minus" aria-hidden="true"></span>
+      </button>
+
+      <a class="btn-pill btn-pill--dark" href="mailto:hello@example.com">
+        <span>Let&rsquo;s talk</span>
+        <span class="dot" aria-hidden="true"></span>
+      </a>
+
+      <button class="btn-pill btn-pill--light" type="button" id="menu-btn" aria-expanded="false">
+        <span>Menu</span>
+        <span class="dots" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======= PROJECTS 首屏大标题（Step 1） ======= -->
+    <section class="hero">
+      <h1 class="hero-title" aria-label="Projects">
+        <span class="ltr-mask" style="--i:0"><span class="ltr">P</span></span>
+        <span class="ltr-mask" style="--i:1"><span class="ltr">R</span></span>
+        <span class="ltr-mask" style="--i:2"><span class="ltr">O</span></span>
+        <span class="ltr-mask" style="--i:3"><span class="ltr">J</span></span>
+        <span class="ltr-mask" style="--i:4"><span class="ltr">E</span></span>
+        <span class="ltr-mask" style="--i:5"><span class="ltr">C</span></span>
+        <span class="ltr-mask" style="--i:6"><span class="ltr">T</span></span>
+        <span class="ltr-mask" style="--i:7"><span class="ltr">S</span></span>
+      </h1>
+
+      <div class="hero-meta">
+        <span class="hero-count">19</span>
+        <svg class="hero-arrow" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <path d="M10 10 L52 52 M52 20 V52 H20" stroke="currentColor" stroke-width="2.5" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- STEP 2 占位：作品卡片网格将在下一步加入 -->
+    <section class="grid-section" id="work" aria-hidden="true"></section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
