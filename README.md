@@ -10,8 +10,7 @@
 | 版本 | 内容 | 地址 |
 | --- | --- | --- |
 | 最新 | 所有已完成步骤 | `/`（仓库主页部署） |
-| v0.3 | Step 3：动画层 + 8 张卡片 | `versions/step-3/` |
-| v0.2 | Step 2：作品卡片网格 | `versions/step-2/` |
+| v0.2 | Step 2：作品卡片网格（19 张） | `versions/step-2/` |
 | v0.1 | Step 1：骨架 + 导航 + 首屏 | `versions/step-1/` |
 
 （把上面的相对地址拼在 Pages 域名后即可，如 `https://<user>.github.io/lusion-clone/versions/step-1/`）
