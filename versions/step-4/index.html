@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Lusion 风格复刻（学习用途）</title>
+  <meta name="description" content="Front-end study replica of the lusion.co/projects layout, built from scratch with placeholder visuals." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ======= 顶部导航（Step 1） ======= -->
+  <header class="site-header">
+    <a class="logo" href="#" aria-label="Home">LUSION</a>
+
+    <div class="header-actions">
+      <button class="btn-circle" type="button" aria-label="Back">
+        <span class="icon-minus" aria-hidden="true"></span>
+      </button>
+
+      <a class="btn-pill btn-pill--dark" href="mailto:hello@example.com">
+        <span>Let&rsquo;s talk</span>
+        <span class="dot" aria-hidden="true"></span>
+      </a>
+
+      <button class="btn-pill btn-pill--light" type="button" id="menu-btn" aria-expanded="false">
+        <span>Menu</span>
+        <span class="dots" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======= PROJECTS 首屏大标题（Step 1） ======= -->
+    <section class="hero">
+      <h1 class="hero-title" aria-label="Projects">
+        <span class="ltr-mask" style="--i:0"><span class="ltr">P</span></span>
+        <span class="ltr-mask" style="--i:1"><span class="ltr">R</span></span>
+        <span class="ltr-mask" style="--i:2"><span class="ltr">O</span></span>
+        <span class="ltr-mask" style="--i:3"><span class="ltr">J</span></span>
+        <span class="ltr-mask" style="--i:4"><span class="ltr">E</span></span>
+        <span class="ltr-mask" style="--i:5"><span class="ltr">C</span></span>
+        <span class="ltr-mask" style="--i:6"><span class="ltr">T</span></span>
+        <span class="ltr-mask" style="--i:7"><span class="ltr">S</span></span>
+      </h1>
+
+      <div class="hero-meta">
+        <span class="hero-count">8</span>
+        <svg class="hero-arrow" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <path d="M10 10 L52 52 M52 20 V52 H20" stroke="currentColor" stroke-width="2.5" />
+        </svg>
+      </div>
+    </section>
+
+    <!-- ======= 作品卡片网格（Step 2，占位视觉代替原站视频素材） ======= -->
+    <section class="grid-section" id="work">
+      <article class="card" style="--ratio:14/9">
+        <a class="card-link" href="#oryzo-ai">
+          <div class="card-media">
+            <div class="ph ph--light" style="--ph-bg:linear-gradient(135deg,#e9e2d6,#cfc3ac);--ph-fg:#8a7a5c">
+              <span class="ph-initial" aria-hidden="true">O</span><span class="ph-play" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p class="card-tags">Concept &bull; Web &bull; Design &bull; Development &bull; 3D &bull; Animation</p>
+          <h2 class="card-title">Oryzo AI</h2>
+        </a>
+      </article>
+
+      <article class="card" style="--ratio:13/9">
+        <a class="card-link" href="#atlas-motion">
+          <div class="card-media">
+            <div class="ph ph--light" style="--ph-bg:linear-gradient(135deg,#c3d6ea,#8fb4dc);--ph-fg:#3f6a99">
+              <span class="ph-initial" aria-hidden="true">A</span><span class="ph-play" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p class="card-tags">Concept &bull; Web &bull; Design &bull; Development &bull; 3D &bull; Animation</p>
+          <h2 class="card-title">Atlas Motion</h2>
+        </a>
+      </article>
+
+      <article class="card" style="--ratio:4/3">
+        <a class="card-link" href="#devin-ai">
+          <div class="card-media">
+            <div class="ph ph--dark" style="--ph-bg:linear-gradient(140deg,#2b2b33,#191921);--ph-fg:#e8e6f2">
+              <span class="ph-initial" aria-hidden="true">D</span><span class="ph-play" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p class="card-tags">Web &bull; Design &bull; Development &bull; 3D</p>
+          <h2 class="card-title">Devin AI</h2>
+        </a>
+      </article>
+
+      <article class="card" style="--ratio:3/2">
+        <a class="card-link" href="#of-the-oak">
+          <div class="card-media">
+            <div class="ph ph--dark" style="--ph-bg:linear-gradient(135deg,#7a8a6a,#59684c);--ph-fg:#eef0e4">
+              <span class="ph-initial" aria-hidden="true">O</span><span class="ph-play" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p class="card-tags">Web &bull; Design &bull; Development &bull; 3D &bull; Animation</p>
+          <h2 class="card-title">Of The Oak</h2>
+        </a>
+      </article>
+
+      <article class="card" style="--ratio:5/4">
+        <a class="card-link" href="#everswap">
+          <div class="card-media">
+            <div class="ph ph--light" style="--ph-bg:linear-gradient(135deg,#f0ddd4,#dcb8a8);--ph-fg:#96604a">
+              <span class="ph-initial" aria-hidden="true">E</span><span class="ph-play" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p class="card-tags">Concept &bull; Web &bull; Design &bull; Development &bull; 3D &bull; Animation</p>
+          <h2 class="card-title">Everswap</h2>
+        </a>
+      </article>
+
+      <article class="card" style="--ratio:14/9">
+        <a class="card-link" href="#porsche-dream-machine">
+          <div class="card-media">
+            <div class="ph ph--dark" style="--ph-bg:linear-gradient(140deg,#33313a,#201f26);--ph-fg:#d8a47f">
+              <span class="ph-initial" aria-hidden="true">P</span><span class="ph-play" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p class="card-tags">Concept &bull; 3D Illustration &bull; Mograph &bull; Video</p>
+          <h2 class="card-title">Porsche: Dream Machine</h2>
+        </a>
+      </article>
+
+      <article class="card" style="--ratio:3/2">
+        <a class="card-link" href="#synthetic-human">
+          <div class="card-media">
+            <div class="ph ph--light" style="--ph-bg:linear-gradient(135deg,#cfcbec,#a9a3d6);--ph-fg:#4b4483">
+              <span class="ph-initial" aria-hidden="true">S</span><span class="ph-play" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p class="card-tags">Design &bull; Development &bull; 3D &bull; Animation</p>
+          <h2 class="card-title">Synthetic Human</h2>
+        </a>
+      </article>
+
+      <article class="card" style="--ratio:4/3">
+        <a class="card-link" href="#ddd-2024">
+          <div class="card-media">
+            <div class="ph ph--light" style="--ph-bg:linear-gradient(135deg,#ecd3a4,#d9b06c);--ph-fg:#7d5a22">
+              <span class="ph-initial" aria-hidden="true">D</span><span class="ph-play" aria-hidden="true"></span>
+            </div>
+          </div>
+          <p class="card-tags">Concept &bull; Design &bull; Development &bull; 3D</p>
+          <h2 class="card-title">DDD 2024</h2>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
